@@ -1,0 +1,33 @@
+l_english:
+ ### Starting focuses
+ utsuho_first_focuses:0 "Idk where that name is used so bebebebebebebebe"
+ #
+ UTH_procrastinate:0 "Procrastinate"
+ UTH_procrastinate_desc:0 "\"I'm not in a mood today...\""
+ UTH_CET_somethingbad:0 "§RSomething unexpected is going to happen!§!"
+ #
+ UTH_takeabook:0 "Take a book"
+ UTH_takeabook_desc:0 "\"People keep telling that I'm stupid and shit blah blah blah. Now I'm really going to focus to not being dumb in other's eyes.\" What the fuck am I writing here?"
+ #
+ UTH_send_a_letter:0 "Send a letter to Satori"
+ UTH_send_a_letter_desc:0 "\"I feel like I'm competent enough to take care of my OWN small nation in my OWN hands, and I hope Satori understands that well and will support me... otherwise...\""
+ #
+
+
+
+
+
+
+
+
+
+
+ ### Evenets
+ # Utsuho-Satori war
+ UTH_degeneracy_events.satwar.1.1.t:0 "Satori accepted our freedom"
+ UTH_degeneracy_events.satwar.1.1.desc:0 "Good news! Satori has accepted our proposal and now we're independent. Time to step up to build out bright, radioactive future!"
+ UTH_degeneracy_events.satwar.1.1.a:0 "Awesome!"
+
+ UTH_degeneracy_events.satwar.1.2.t:0 "Satori's congress refuses diplomacy"
+ UTH_degeneracy_events.satwar.1.2.desc:0 "Satori sent us a letter in return. Straight-forward short decline. \n\"This is not happening yet, sorry\" \nThat's all we got in return."
+ UTH_degeneracy_events.satwar.1.2.a:0 "\"We have no other choice\""

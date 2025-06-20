@@ -1,0 +1,30 @@
+add_namespace = SAT_degeneracy_events
+
+# По send a letter фокусу аля атпусти миня суко мразь ! ! ! ! ! :3 :3 :3 :3
+country_event = {
+	id = SAT_degeneracy_events.satwar.1
+	title = SAT_degeneracy_events.satwar.1.t
+	desc = SAT_degeneracy_events.satwar.1.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = SAT_degeneracy_events.satwar.1.a
+		end_puppet = UTH
+		UTH = {country_event = {
+			id = UTH_degeneracy_events.satwar.1.1
+			days = 1
+			random_hours = 10
+		}}
+		
+	}
+	option = {
+		name = SAT_degeneracy_events.satwar.1.b
+		UTH = {country_event = {
+			id = UTH_degeneracy_events.satwar.1.2
+			days = 1
+			random_hours = 10
+		}}
+		# Ебнуть ивентом по утцухо аля атказ
+	}
+}

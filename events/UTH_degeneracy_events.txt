@@ -1,0 +1,26 @@
+add_namespace = UTH_degeneracy_events
+
+country_event = { # Satori accepted
+	id = UTH_degeneracy_events.satwar.1.1
+	title = UTH_degeneracy_events.satwar.1.1.t
+	desc = UTH_degeneracy_events.satwar.1.1.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = UTH_degeneracy_events.satwar.1.1.a
+		# load focus tree
+	}
+}
+
+country_event = { # Satori declined
+	id = UTH_degeneracy_events.satwar.1.2
+	title = UTH_degeneracy_events.satwar.1.2.t
+	desc = UTH_degeneracy_events.satwar.1.2.desc
+
+	is_triggered_only = yes
+	option = {
+		name = UTH_degeneracy_events.satwar.1.2.a
+		# хз но чтобы фокус на войну был доступен
+	}
+}

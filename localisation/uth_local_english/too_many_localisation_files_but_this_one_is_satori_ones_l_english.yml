@@ -1,0 +1,6 @@
+l_english:
+ # Эта хуета где ты типо делаешь send a letter на Утцухо иии эээ че нахуй.
+ SAT_degeneracy_events.satwar.1.t:0 "Utsuho's letter"
+ SAT_degeneracy_events.satwar.1.desc:0 "Through a spirit living in the palace we got quite an interesting letter from Utsuho. \n\"Dear lady Satori, despite current unstable in Gensokyo, and in the Former Hell specially, I wish for the undependence of my country from your control. I promise to not use this as an advantage against you and your people, I wish just to have more control over my country than I have it right now, and especially over my future here.\"\n What do we do?"
+ SAT_degeneracy_events.satwar.1.a:0 "\"Of course, Utsuho.\""
+ SAT_degeneracy_events.satwar.1.b:0 "\"It's not happening yet, sorry.\""

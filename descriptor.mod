@@ -1,4 +1,7 @@
 version="1.14.3"
+dependencies={
+	"[Q] тохуё мод на 1.14.3 потому что баги ебанные"
+}
 tags={
 	"Alternative History"
 	"National Focuses"
