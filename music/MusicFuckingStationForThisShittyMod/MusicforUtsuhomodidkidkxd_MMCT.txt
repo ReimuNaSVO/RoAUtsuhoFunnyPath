@@ -11,7 +11,7 @@
 
 #Consult the music modding page on the HOI4 wiki for more info: https://hoi4.paradoxwikis.com/Music_modding.
 
-music_station = "Gensokyo private radio to kill yourself while listening"
+music_station = "Former Hell's private radio station"
 music = {
     song = "Demetori - Innumerable Eyes"
     chance = {

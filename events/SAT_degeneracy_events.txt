@@ -9,8 +9,12 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+		# prinyato
 		name = SAT_degeneracy_events.satwar.1.a
 		end_puppet = UTH
+		ai_chance = {
+            base = 0 # временно хули пока
+        } 
 		UTH = {country_event = {
 			id = UTH_degeneracy_events.satwar.1.1
 			days = 1
@@ -19,12 +23,30 @@ country_event = {
 		
 	}
 	option = {
+		# otkaz
 		name = SAT_degeneracy_events.satwar.1.b
+		ai_chance = {
+            base = 1 
+        }
 		UTH = {country_event = {
 			id = UTH_degeneracy_events.satwar.1.2
 			days = 1
 			random_hours = 10
 		}}
+		UTH = {set_variable = {UTH_sat_declined = yes}}
 		# Ебнуть ивентом по утцухо аля атказ
+	}
+}
+
+# The start of Utsuho-Satori war, third focus completed
+country_event = {
+	id = SAT_degeneracy_events.satwar.2
+	title = SAT_degeneracy_events.satwar.2.t
+	desc = SAT_degeneracy_events.satwar.2.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = SAT_degeneracy_events.satwar.2.a
 	}
 }

@@ -1,0 +1,110 @@
+mark_focus_tree_layout_dirty = true
+
+focus_tree = {
+    id = utsuho_first_focuses
+    country = {
+        base = 0
+        modifier = {
+            add = 120
+            tag = UTH
+        }
+    }
+
+    
+    # procrastinate like i do
+    focus = { 
+        id = UTH_procrastinate
+        x = 12
+        y = 0
+        icon = GFX_utsuho_sleeping
+
+        mutually_exclusive = { focus = UTH_takeabook}
+
+        cost = 0.5 # how much ?
+
+        completion_reward = {
+            add_political_power = 13.37
+        }
+    } 
+
+
+    # Left wing
+    # take a book to read
+    focus = {
+        id = UTH_takeabook
+        x = -3
+        y = 0
+        icon = GFX_utsuho_book
+        
+        relative_position_id = UTH_procrastinate
+        mutually_exclusive = { focus = UTH_procrastinate } 
+        available = {
+            is_ai = no
+        }
+
+        cost = 3
+
+        completion_reward = {
+            hidden_effect = {
+                launch_nuke = {
+                    state = 75
+                    use_nuke = no
+                }
+            }
+            custom_effect_tooltip = UTH_CET_somethingbad
+        }
+        
+        
+    }
+
+    # Send a letter to dear Satori
+    focus = {
+        id = UTH_send_a_letter
+        x = 0
+        y = 1.5
+        icon = GFX_focus_generic_treaty #change later yk
+
+        relative_position_id = UTH_takeabook
+        prerequisite = { focus = UTH_takeabook }
+
+        cost = 3
+
+        completion_reward = {
+            SAT = {country_event = {
+                id = SAT_degeneracy_events.satwar.1 # просьба атпутити :(
+                days = 1
+                random_hours = 12
+                }
+            }
+        }
+    }
+
+    focus = {
+        id = UTH_SAT_war
+        x = 0
+        y = 1.5
+        icon = GFX_satori_caution
+
+        relative_position_id = UTH_send_a_letter
+        prerequisite = {focus = UTH_send_a_letter}
+
+        cost = 1
+        
+        allow_branch = {
+            check_variable = {UTH_sat_declined = yes}
+        }
+        completion_reward = {
+            # SAT = {end_puppet = UTH}
+            declare_war_on = {
+                target = SAT
+                type = duli_wargoal # independence war
+            }
+            SAT = {country_event = {
+                id = SAT_degeneracy_events.satwar.2 # prosto uvedomlenie o voine
+                random_hours = 5
+                }
+            }
+            scoped_play_song = "Demetori - Innumerable Eyes"
+        }
+    }
+}

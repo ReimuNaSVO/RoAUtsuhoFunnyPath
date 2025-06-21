@@ -4,3 +4,8 @@ l_english:
  SAT_degeneracy_events.satwar.1.desc:0 "Through a spirit living in the palace we got quite an interesting letter from Utsuho. \n\"Dear lady Satori, despite current unstable in Gensokyo, and in the Former Hell specially, I wish for the undependence of my country from your control. I promise to not use this as an advantage against you and your people, I wish just to have more control over my country than I have it right now, and especially over my future here.\"\n What do we do?"
  SAT_degeneracy_events.satwar.1.a:0 "\"Of course, Utsuho.\""
  SAT_degeneracy_events.satwar.1.b:0 "\"It's not happening yet, sorry.\""
+
+ # Объявление войны!!!!
+ SAT_degeneracy_events.satwar.2.t:0 "Utsuho's letter"
+ SAT_degeneracy_events.satwar.2.desc:0 "After first shots and explosion sounds fills the border area between our and Utsuho's nation, later that morning we got another letter from Utsuho. \n\"I'm sorry.\" \nThat's everything in the letter. Just 2 words and nothing else."
+ SAT_degeneracy_events.satwar.2.a:0 "Farewell."

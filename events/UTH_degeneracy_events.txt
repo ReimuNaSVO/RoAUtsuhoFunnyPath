@@ -21,6 +21,7 @@ country_event = { # Satori declined
 	is_triggered_only = yes
 	option = {
 		name = UTH_degeneracy_events.satwar.1.2.a
+		set_variable = {UTH_sat_declined = yes}
 		# хз но чтобы фокус на войну был доступен
 	}
 }

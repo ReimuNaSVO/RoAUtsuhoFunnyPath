@@ -50,6 +50,9 @@
     	election_frequency = 48
     	elections_allowed = no
     }
+    # variables
+    set_variable = {UTH_sat_declined = no}
+    #
     set_popularities = {
         qinwai = 0
         guli = 80

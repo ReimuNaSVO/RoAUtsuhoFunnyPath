@@ -8,4 +8,8 @@ spriteTypes = {
         name = GFX_utsuho_sleeping
         texturefile = gfx/uth_national_focuses/utsuho_sleeping.dds
     }
+    spriteType = {
+        name = GFX_satori_caution
+        textureFile = gfx/uth_national_focuses/satori_caution.dds
+    }
 }
