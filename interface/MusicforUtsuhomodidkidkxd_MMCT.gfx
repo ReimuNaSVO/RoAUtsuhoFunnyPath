@@ -1,7 +1,0 @@
-spriteTypes = {
-    spriteType = {
-      name = "GFX_radio_stancia_i_hate_myself_thx_for_watching"
-      textureFile = "gfx/koishiiiiiiii.dds"
-      noOfFrames = 2
-    }
-}

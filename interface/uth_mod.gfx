@@ -1,15 +1,15 @@
 spriteTypes = {
     spriteType = {
-        name = GFX_utsuho_book
+        name = GFX_focus_utsuho_book
         texturefile = gfx/uth_national_focuses/utsuho_book.dds
         # used in UTH_takeabook focus
     }
     spriteType = {
-        name = GFX_utsuho_sleeping
+        name = GFX_focus_utsuho_sleeping
         texturefile = gfx/uth_national_focuses/utsuho_sleeping.dds
     }
     spriteType = {
-        name = GFX_satori_caution
+        name = GFX_focus_satori_caution
         textureFile = gfx/uth_national_focuses/satori_caution.dds
     }
 }

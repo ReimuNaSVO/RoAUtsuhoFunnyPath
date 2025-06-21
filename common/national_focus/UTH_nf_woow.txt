@@ -16,7 +16,7 @@ focus_tree = {
         id = UTH_procrastinate
         x = 12
         y = 0
-        icon = GFX_utsuho_sleeping
+        icon = GFX_focus_utsuho_sleeping
 
         mutually_exclusive = { focus = UTH_takeabook}
 
@@ -34,7 +34,7 @@ focus_tree = {
         id = UTH_takeabook
         x = -3
         y = 0
-        icon = GFX_utsuho_book
+        icon = GFX_focus_utsuho_book
         
         relative_position_id = UTH_procrastinate
         mutually_exclusive = { focus = UTH_procrastinate } 
@@ -83,7 +83,7 @@ focus_tree = {
         id = UTH_SAT_war
         x = 0
         y = 1.5
-        icon = GFX_satori_caution
+        icon = GFX_focus_satori_caution
 
         relative_position_id = UTH_send_a_letter
         prerequisite = {focus = UTH_send_a_letter}

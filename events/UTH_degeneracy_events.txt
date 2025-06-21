@@ -1,4 +1,5 @@
 add_namespace = UTH_degeneracy_events
+add_namespace = UTH_degeneracy_events.satwar
 
 country_event = { # Satori accepted
 	id = UTH_degeneracy_events.satwar.1.1
