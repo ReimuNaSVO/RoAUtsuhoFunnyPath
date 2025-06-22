@@ -2,6 +2,9 @@
  ### Starting focuses
  utsuho_first_focuses:0 "Idk where that name is used so bebebebebebebebe"
  #
+ UTH_testfocus:0 "Test focus for GFX"
+ UTH_testfocus_desc:0 "Self-explanatory you silly"
+ #
  UTH_procrastinate:0 "Procrastinate"
  UTH_procrastinate_desc:0 "\"I'm not in a mood today...\""
  UTH_CET_somethingbad:0 "§RSomething unexpected is going to happen!§!"
@@ -14,10 +17,9 @@
  #
  UTH_SAT_war:0 "Start independence war"
  UTH_SAT_war_desc:0 "\"I'm sorry, but I have to.\""
-
-
-
-
+ #
+ UTH_SAT_war_nuclear_overdrive:0 "Nuclear overdrive"
+ UTH_SAT_war_nuclear_overdrive_desc:0 "\"I'm gonna use the power of nuclear fusion to enhance combat abilities of our soldier spirits... They seem to not care about it though, and even trusting me at it... maybe is it Rin work?\""
 
 
 
@@ -34,3 +36,14 @@
  UTH_degeneracy_events.satwar.2.t:0 "Satori's congress refuses diplomacy"
  UTH_degeneracy_events.satwar.2.desc:0 "Satori sent us a letter in return. Straight-forward short decline. \n\"This is not happening yet, sorry\" \nThat's all we got in return."
  UTH_degeneracy_events.satwar.2.a:0 "\"We have no other choice\""
+
+
+
+
+
+ ### Ideas
+ # Utsuho-Satori war
+ uth_overdrive:0 "Nuclear overdrive"
+ uth_overdrive_desc:0 "Using nuclear to actually affect our combat? Sure. why not, what would go wrong anyway? NOTHING!!!!!!!!!!"
+ uth_overdrive_idea:0 "Nuclear overdrive"
+ uth_overdrive_idea_desc:0 "\"Combat capacitibies enhancement on Utsuho's nuclear fusion power. Meanwhile providing huge attack and defence, especially on core territories, it makes division more deorganized for effect period\" Re-write latter"

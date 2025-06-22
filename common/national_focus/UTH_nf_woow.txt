@@ -107,4 +107,37 @@ focus_tree = {
             }
         }
     }
+
+    focus = {
+        id = UTH_SAT_war_nuclear_overdrive
+        x = 2.5
+        y = 1.5
+        icon = GFX_focus_nuclear_overdrive
+
+        cost = 2.5
+
+        allow_branch = {
+            has_war_with = SAT
+        }
+
+        completion_reward = {
+            add_timed_idea = {
+                idea = uth_overdrive_idea
+                days = 30
+            }
+        }
+    }
+
+    focus = {
+        id = UTH_testfocus #testyeah
+        x = 1
+        y = 1
+        icon = GFX_focus_utsuho_default
+
+        cost = 0.1
+
+        completion_reward = {
+            add_political_power = 1
+        }
+    }
 }
