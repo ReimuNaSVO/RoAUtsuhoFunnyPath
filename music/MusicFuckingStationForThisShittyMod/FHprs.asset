@@ -1,0 +1,5 @@
+music = {
+	name = "Demetori - Innumerable Eyes"
+	file = "Demetori_Innumerable_Eyes.ogg"
+	volume = 0.85
+}

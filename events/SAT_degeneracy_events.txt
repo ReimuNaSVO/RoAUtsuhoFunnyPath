@@ -1,5 +1,5 @@
 add_namespace = SAT_degeneracy_events
-add_namespace = SAT_degeneracy_events.satwar
+add_namespace = SAT_degeneracy_events.satwar # сабтопик про войну утцухо и сатори
 
 # По send a letter фокусу аля атпусти миня суко мразь ! ! ! ! ! :3 :3 :3 :3
 country_event = {

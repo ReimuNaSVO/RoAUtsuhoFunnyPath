@@ -1,0 +1,8 @@
+music_station = "FMprsName"
+
+music = {
+    song = "Demetori - Innumerable Eyes"
+    chance = {
+        factor = 1
+    }
+}

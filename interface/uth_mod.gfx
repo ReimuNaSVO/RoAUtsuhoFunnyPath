@@ -1,15 +1,124 @@
 spriteTypes = {
+    ### FOCUSES
+
+    #
+
     spriteType = {
         name = GFX_focus_utsuho_book
         texturefile = gfx/uth_national_focuses/utsuho_book.dds
         # used in UTH_takeabook focus
     }
     spriteType = {
+        name = GFX_focus_utsuho_book_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/uth_national_focuses/utsuho_book.dds # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/uth_national_focuses/utsuho_book.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/uth_national_focuses/utsuho_book.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+    #
+
+    spriteType = {
         name = GFX_focus_utsuho_sleeping
         texturefile = gfx/uth_national_focuses/utsuho_sleeping.dds
     }
     spriteType = {
+        name = GFX_focus_utsuho_sleeping_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/uth_national_focuses/utsuho_book.dds # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/uth_national_focuses/utsuho_book.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/uth_national_focuses/utsuho_book.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+    #
+
+    spriteType = {
         name = GFX_focus_satori_caution
         textureFile = gfx/uth_national_focuses/satori_caution.dds
     }
+    spriteType = {
+        name = GFX_focus_satori_caution_shine # Change the name, note to keep _shine in the end
+        texturefile = gfx/uth_national_focuses/utsuho_book.dds # Change to the focus icon
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/uth_national_focuses/utsuho_book.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/uth_national_focuses/utsuho_book.dds # Change to the focus icon
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+
+    #
+
+    ### Former Hell's private radio station
+    spriteType = {
+		name = "FHrpsToggle"
+		texturefile = "gfx/koishiiiiiiii.dds"
+		noOfFrames = 2
+	}
 }

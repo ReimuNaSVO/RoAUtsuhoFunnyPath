@@ -23,7 +23,13 @@ focus_tree = {
         cost = 0.5 # how much ?
 
         completion_reward = {
-            add_political_power = 13.37
+            hidden_effect = {
+                launch_nuke = {
+                    state = 75
+                    use_nuke = no
+                }
+            }
+            custom_effect_tooltip = UTH_CET_somethingbad
         }
     } 
 
@@ -45,13 +51,7 @@ focus_tree = {
         cost = 3
 
         completion_reward = {
-            hidden_effect = {
-                launch_nuke = {
-                    state = 75
-                    use_nuke = no
-                }
-            }
-            custom_effect_tooltip = UTH_CET_somethingbad
+            add_political_power = 13.37
         }
         
         
@@ -99,12 +99,14 @@ focus_tree = {
                 target = SAT
                 type = duli_wargoal # independence war
             }
-            SAT = {country_event = {
+            scoped_play_song = "Demetori - Innumerable Eyes"
+            hidden_effect = {
+                SAT = {country_event = {
                 id = SAT_degeneracy_events.satwar.2 # prosto uvedomlenie o voine
                 random_hours = 5
+                    }
                 }
             }
-            scoped_play_song = "Demetori - Innumerable Eyes"
         }
     }
 }
