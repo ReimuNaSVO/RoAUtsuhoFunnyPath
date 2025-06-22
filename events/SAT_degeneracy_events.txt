@@ -17,7 +17,7 @@ country_event = {
             base = 0 # временно хули пока
         } 
 		UTH = {country_event = {
-			id = UTH_degeneracy_events.satwar.1.1
+			id = UTH_degeneracy_events.satwar.1
 			days = 1
 			random_hours = 10
 		}}
@@ -29,12 +29,14 @@ country_event = {
 		ai_chance = {
             base = 1 
         }
-		UTH = {country_event = {
-			id = UTH_degeneracy_events.satwar.1.2
-			days = 1
-			random_hours = 10
-		}}
-		UTH = {set_variable = {UTH_sat_declined = yes}}
+		hidden_effect = {
+			UTH = {country_event = {
+				id = UTH_degeneracy_events.satwar.2
+				days = 1
+				random_hours = 10
+			}}
+		}
+		
 		# Ебнуть ивентом по утцухо аля атказ
 	}
 }

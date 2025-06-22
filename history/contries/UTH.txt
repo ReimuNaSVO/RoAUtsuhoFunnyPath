@@ -51,7 +51,7 @@
     	elections_allowed = no
     }
     # variables
-    set_variable = {UTH_sat_declined = no}
+    set_variable = {UTH_satori_declined = 0}
     #
     set_popularities = {
         qinwai = 0

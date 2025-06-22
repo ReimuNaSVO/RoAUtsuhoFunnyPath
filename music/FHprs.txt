@@ -1,4 +1,4 @@
-music_station = "FMprsName"
+music_station = "Former Hell's private radio station"
 
 music = {
     song = "Demetori - Innumerable Eyes"

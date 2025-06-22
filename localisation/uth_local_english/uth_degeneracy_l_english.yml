@@ -12,7 +12,8 @@
  UTH_send_a_letter:0 "Send a letter to Satori"
  UTH_send_a_letter_desc:0 "\"I feel like I'm competent enough to take care of my OWN small nation in my OWN hands, and I hope Satori understands that well and will support me... otherwise...\""
  #
-
+ UTH_SAT_war:0 "Start independence war"
+ UTH_SAT_war_desc:0 "\"I'm sorry, but I have to.\""
 
 
 
@@ -24,10 +25,12 @@
 
  ### Evenets
  # Utsuho-Satori war
- UTH_degeneracy_events.satwar.1.1.t:0 "Satori accepted our freedom"
- UTH_degeneracy_events.satwar.1.1.desc:0 "Good news! Satori has accepted our proposal and now we're independent. Time to step up to build out bright, radioactive future!"
- UTH_degeneracy_events.satwar.1.1.a:0 "Awesome!"
+ UTH_SAT_war_soon_tt:0 "§YOur vengeful spirits feel the presence of impending battle coming on our lands. Battle for our freedom.§!"
 
- UTH_degeneracy_events.satwar.1.2.t:0 "Satori's congress refuses diplomacy"
- UTH_degeneracy_events.satwar.1.2.desc:0 "Satori sent us a letter in return. Straight-forward short decline. \n\"This is not happening yet, sorry\" \nThat's all we got in return."
- UTH_degeneracy_events.satwar.1.2.a:0 "\"We have no other choice\""
+ UTH_degeneracy_events.satwar.1.t:0 "Satori accepted our freedom"
+ UTH_degeneracy_events.satwar.1.desc:0 "Good news! Satori has accepted our proposal and now we're independent. Time to step up to build out bright, radioactive future!"
+ UTH_degeneracy_events.satwar.1.a:0 "Awesome!"
+
+ UTH_degeneracy_events.satwar.2.t:0 "Satori's congress refuses diplomacy"
+ UTH_degeneracy_events.satwar.2.desc:0 "Satori sent us a letter in return. Straight-forward short decline. \n\"This is not happening yet, sorry\" \nThat's all we got in return."
+ UTH_degeneracy_events.satwar.2.a:0 "\"We have no other choice\""

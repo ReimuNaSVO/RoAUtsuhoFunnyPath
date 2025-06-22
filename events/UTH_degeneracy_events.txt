@@ -2,27 +2,31 @@ add_namespace = UTH_degeneracy_events
 add_namespace = UTH_degeneracy_events.satwar # сабтопик про войну утцухо и сатори
 
 country_event = { # Satori accepted
-	id = UTH_degeneracy_events.satwar.1.1
-	title = UTH_degeneracy_events.satwar.1.1.t
-	desc = UTH_degeneracy_events.satwar.1.1.desc
+	id = UTH_degeneracy_events.satwar.1
+	title = UTH_degeneracy_events.satwar.1.t
+	desc = UTH_degeneracy_events.satwar.1.desc
 
 	is_triggered_only = yes
 	
 	option = {
-		name = UTH_degeneracy_events.satwar.1.1.a
+		name = UTH_degeneracy_events.satwar.1.a
 		# load focus tree
 	}
 }
 
 country_event = { # Satori declined
-	id = UTH_degeneracy_events.satwar.1.2
-	title = UTH_degeneracy_events.satwar.1.2.t
-	desc = UTH_degeneracy_events.satwar.1.2.desc
+	id = UTH_degeneracy_events.satwar.2
+	title = UTH_degeneracy_events.satwar.2.t
+	desc = UTH_degeneracy_events.satwar.2.desc
 
 	is_triggered_only = yes
 	option = {
-		name = UTH_degeneracy_events.satwar.1.2.a
-		set_variable = {UTH_sat_declined = yes}
+		name = UTH_degeneracy_events.satwar.2.a
+		hidden_effect = {
+			set_variable = {UTH_satori_declined = 1}
+			mark_focus_tree_layout_dirty = yes
+		}
+		custom_effect_tooltip = UTH_SAT_war_soon_tt
 		# хз но чтобы фокус на войну был доступен
 	}
 }
