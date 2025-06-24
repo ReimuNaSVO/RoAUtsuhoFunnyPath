@@ -151,6 +151,25 @@ spriteTypes = {
     }
 
     #
+    ### Ideas gfx
+
+    #
+    
+    spriteType = { # nuclear overdrive idea
+        name = GFX_idea_nuclear_overdrive
+        texturefile = gfx/uth_national_focuses/fireandatom.dds
+    }
+
+    ### Former Hell's private radio station
+    spriteType = {
+		name = "FHrpsToggle"
+		texturefile = "gfx/koishiiiiiiii.dds"
+		noOfFrames = 2
+	}
+
+
+    ### Default icons if i'm lazy
+
 
     spriteType = {
         name = GFX_focus_utsuho_default
@@ -187,19 +206,10 @@ spriteTypes = {
         legacy_lazy_load = no
     }
 
-    ### Ideas gfx
-
     #
-    
-    spriteType = { # nuclear overdrive idea
-        name = GFX_idea_nuclear_overdrive
-        texturefile = gfx/uth_national_focuses/fireandatom.dds
-    }
 
-    ### Former Hell's private radio station
     spriteType = {
-		name = "FHrpsToggle"
-		texturefile = "gfx/koishiiiiiiii.dds"
-		noOfFrames = 2
-	}
+        name = GFX_idea_utsuho_default
+        textureFile = gfx/uth_national_focuses/utsuho_default_icon.dds
+    }
 }

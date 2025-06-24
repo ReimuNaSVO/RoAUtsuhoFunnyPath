@@ -42,8 +42,16 @@
 
 
  ### Ideas
+
+ # Initial focuses
+ uth_nuclearfusion:0 "Utsuho's nuclear fusion"
+ uth_nuclearfusion_desc:0 "While still being kinda bird-brained, Utsuho actually understands every process in nuclear fusion and in nuclear tech itself more than anyone else could. So? Why are you looking at me like that? Not a detail description than it should, but do you think I give a single FUCK about it? Sorry."
+
+ uth_kashacorpsecarry:0 "Kasha's onryou control"
+ uth_kashacorpsecarry_desc:0 "\"Woah! The cat turned into a cat!\" Don't be fooled by her appearance, or what she does! Her work is to carry corpses straight to [ROOT.GetName] for fuel to uhhhhh.. keep [ROOT.GetName] hot? Anyways, in Rin's power possesion also spirit's control, also all corpses she carries to [ROOT.GetName] transform into onryou. Free replenishable manpower!"
+
  # Utsuho-Satori war
  uth_overdrive:0 "Nuclear overdrive"
  uth_overdrive_desc:0 "Using nuclear to actually affect our combat? Sure. why not, what would go wrong anyway? NOTHING!!!!!!!!!!"
- uth_overdrive_idea:0 "Nuclear overdrive"
- uth_overdrive_idea_desc:0 "\"Combat capacitibies enhancement on Utsuho's nuclear fusion power. Meanwhile providing huge attack and defence, especially on core territories, it makes division more deorganized for effect period\" Re-write latter"
+ uth_overdriveSATWAR_idea:0 "Nuclear overdrive"
+ uth_overdriveSATWAR_idea_desc:0 "\"Combat capacitibies enhancement on Utsuho's nuclear fusion power. Meanwhile providing huge attack and defence, especially on core territories, it makes division more deorganized for effect period\" Re-write latter"

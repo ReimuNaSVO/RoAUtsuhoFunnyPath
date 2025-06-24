@@ -111,7 +111,7 @@ guiTypes = {
 	}
 
 	containerWindowType={
-		name = "Former_Hell_private_radio_station_entry" # FMprsName_stations_entry
+		name = "FMprsName_stations_entry" # FMprsName_stations_entry
 		size = { width = 162 height = 130 }
 		
 		checkBoxType = {
