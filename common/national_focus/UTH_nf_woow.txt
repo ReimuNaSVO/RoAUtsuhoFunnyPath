@@ -130,8 +130,8 @@ focus_tree = {
 
     focus = {
         id = UTH_testfocus #testyeah
-        x = 1
-        y = 1
+        x = 0
+        y = 0
         icon = GFX_focus_utsuho_default
 
         cost = 0.1
