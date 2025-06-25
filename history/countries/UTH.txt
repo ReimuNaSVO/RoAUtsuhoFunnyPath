@@ -1,4 +1,4 @@
-﻿capital = 75
+capital = 75
 146.1.1 = {
     set_technology = {
         #通用武器线
@@ -44,6 +44,8 @@
         hawk0
         strict_border
         free_magic
+        uth_nuclearfusion
+        uth_kashacorpsecarry
     }
     set_politics = {
     	ruling_party = guli
@@ -59,10 +61,5 @@
         neworder = 0
         oldorder = 0
         fandong = 20
-    }
-
-    add_ideas = {
-        uth_nuclearfusion
-        uth_kashacorpsecarry
     }
 }
