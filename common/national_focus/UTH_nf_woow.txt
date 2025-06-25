@@ -122,7 +122,7 @@ focus_tree = {
 
         completion_reward = {
             add_timed_idea = {
-                idea = uth_overdriveSATWAR_idea
+                idea = uth_satwar_overdrive_idea
                 days = 30
             }
         }

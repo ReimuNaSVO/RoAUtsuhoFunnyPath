@@ -3,3 +3,153 @@ music = {
 	file = "Demetori_Innumerable_Eyes.ogg"
 	volume = 0.85
 }
+
+music = {
+	name = "Alice's Emotion - Tag"
+	file = "AlicesEmotion_Tag.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "EastNewSound - Fractal Cage"
+	file = "EastNewSound_FractalCage.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Kisida Kyoudan & The Akeboshi Rockets - Ancient Flower"
+	file = "KisidaKyoudanAndTheAkeboshiRockets_AncientFlower.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Kisida Kyoudan & The Akeboshi Rockets - Ancient Temple"
+	file = "KisidaKyoudanAndTheAkeboshiRockets_AncientTemple.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Kisida Kyoudan & The Akeboshi Rockets - Desire Drive"
+	file = "KisidaKyoudanAndTheAkeboshiRockets_DesireDrive.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Kisida Kyoudan & The Akeboshi Rockets - Kabukichou's Witch"
+	file = "KisidaKyoudanAndTheAkeboshiRockets_KabukichousWitch.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Kisida Kyoudan & The Akeboshi Rockets - YU-MU"
+	file = "KisidaKyoudanAndTheAkeboshiRockets_Yu-Mu.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Kraster - Blooms Knight"
+	file = "Kraster_BloomsKnight.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Kraster - Colors!!!"
+	file = "Kraster_Colors.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Kraster - Flower Maiden"
+	file = "Kraster_FlowerMaiden.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Kraster - Grooooov!! In The Dark"
+	file = "Kraster_GrooooovInTheDark.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Kraster - Lost Memories"
+	file = "Kraster_LostMemories.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Kraster - The Way to Waste an Ending (3rd eye)"
+	file = "Kraster_TheWayToWasteAnEnding.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Nyan Nyan Drive"
+	file = "NyanNyanDrive.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Pitochniy Mekhanizm - Poperek"
+	file = "Poperek.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Surren Tweek - Bad Apple (DnB)"
+	file = "SurrenTWeek_BadAppleDnB.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Xi-On - Ancient Temple"
+	file = "XiOn_AncientTemple.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Xi-On - Overflow"
+	file = "XiOn_Overflow.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Xxtarlit - Iterate6"
+	file = "Xxtarlit_Iterate6"
+	volume = 0.85
+}
+
+music = {
+	name = "Xxtarlit - Phantom Image"
+	file = "Xxtarlit_PhantomImage.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Yellow Zebra - Border of Life (diff name)"
+	file = "YellowZebra_BorderOfLife.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Akvalazi nirnuli k faine"
+	file = "AkvalaziNirnuliKFaine.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "DK - Sahar Kan Kan"
+	file = "DK_SaharKanKan.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Spati UP"
+	file = "SpatiUP.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "Ya vsedga beru s soboi videokameru"
+	file = "YaVsedgaBeruSSoboiVideokameru.ogg"
+	volume = 0.85
+}

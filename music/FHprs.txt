@@ -6,3 +6,178 @@ music = {
         factor = 1
     }
 }
+
+music = {
+    song = "Alice's Emotion - Tag"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "EastNewSound - Fractal Cage"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Kisida Kyoudan & The Akeboshi Rockets - Ancient Flower"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Kisida Kyoudan & The Akeboshi Rockets - Ancient Temple"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Kisida Kyoudan & The Akeboshi Rockets - Desire Drive"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Kisida Kyoudan & The Akeboshi Rockets - Kabukichou's Witch"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Kisida Kyoudan & The Akeboshi Rockets - YU-MU"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Kraster - Blooms Knight"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Kraster - Colors!!!"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Kraster - Flower Maiden"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Kraster - Grooooov!! In The Dark"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Kraster - Lost Memories"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Kraster - The Way to Waste an Ending (3rd eye)"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Nyan Nyan Drive"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Pitochniy Mekhanizm - Poperek"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Surren Tweek - Bad Apple (DnB)"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Xi-On - Ancient Temple"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Xi-On - Overflow"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Xxtarlit - Iterate6"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Xxtarlit - Phantom Image"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Yellow Zebra - Border of Life (diff name)"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "Akvalazi nirnuli k faine"
+    chance = {
+        factor = 0
+    }
+}
+
+music = {
+    song = "DK - Sahar Kan Kan"
+    chance = {
+        factor = 0
+    }
+}
+
+music = {
+    song = "Spati UP"
+    chance = {
+        factor = 0
+    }
+}
+
+music = {
+    song = "Ya vsedga beru s soboi videokameru"
+    chance = {
+        factor = 0
+    }
+}

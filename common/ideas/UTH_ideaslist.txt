@@ -4,10 +4,8 @@ ideas = {
 
 		uth_nuclearfusion = {
 			picture = utsuho_default #laziness
-			modifier = {
-				research_bonus = {
-					secret = 0.5 # yeah
-				}
+			research_bonus = {
+				secret = 0.5 # yeah
 			}
 		}
 
@@ -17,7 +15,7 @@ ideas = {
 		uth_kashacorpsecarry = {
 			picture = utsuho_default #laziness
 			modifier = {
-				experience_loss_factor = -0.25 #idaf
+				experience_loss_factor = -0.25 #idgaf about stacking with others (having Rin and Eirin in characters tab with this idea gives -100% loss factor)
 				weekly_manpower = 15 #a bit balancing but whatever
 			}
 		}
@@ -25,7 +23,7 @@ ideas = {
 		#
 
 		### Utsuho-Satori war
-		uth_overdriveSATWAR_idea = { 
+		uth_satwar_overdrive_idea = { 
 			picture = nuclear_overdrive
 			modifier = {
 				army_attack_factor = 0.4
@@ -33,14 +31,31 @@ ideas = {
 				army_defence_factor = 0.2
 				army_core_defence_factor = 0.4
 				army_speed_factor = 0.5
-				army_org_factor = -0.5
-				army_org_regain = -0.5
-				experience_gain_army_unit_factor = 0.8 # i want veteran divisions :(
+				army_org_factor = 0.2 # -0.5
+				army_org_regain = -0.25 # -0.5
+				# experience_gain_army_unit_factor = 0.8 # i want veteran divisions :(
 			}
 
 			cancel = {
 				NOT = {
 					has_war_with = SAT
+				}
+			}
+		}
+
+		sat_uthwar_radiationsickness = {
+			picture = utsuho_default # laziness
+			modifier = {
+				army_attack_factor = -0.25
+				army_defence_factor = -0.3
+				army_speed_factor = -0.1
+				army_org_regain = -0.35
+				army_org_factor = -0.15
+			}
+
+			cancel = {
+				NOT = {
+					has_war_with = UTH
 				}
 			}
 		}

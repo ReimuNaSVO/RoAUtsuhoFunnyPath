@@ -37,16 +37,13 @@
     oob = "UTH_146"
     
     add_ideas = {
-    manpowerlv1
-    Beast
-    Village
-    close2
-    hawk0
-    strict_border
-    free_magic
-    #
-    uth_nuclearfusion
-    uth_kashacorpsecarry
+        manpowerlv1
+        Beast
+        Village
+        close2
+        hawk0
+        strict_border
+        free_magic
     }
     set_politics = {
     	ruling_party = guli
@@ -62,5 +59,10 @@
         neworder = 0
         oldorder = 0
         fandong = 20
+    }
+
+    add_ideas = {
+        uth_nuclearfusion
+        uth_kashacorpsecarry
     }
 }
