@@ -1,0 +1,117 @@
+focus_tree = {
+	id = UTH_nuclearpath_ft
+	country = { 
+		base = 0 # IDK
+	}
+
+	###
+
+	#
+
+	focus = {
+		id = UTH_newera # new NUCLEAR era
+		x = 5
+		y = 0
+		icon = GFX_focus_utsuho_default # later!!!!!
+
+		completion_reward = {
+			add_political_power = 0
+		}
+	}
+
+	############################
+
+	focus = {
+		id = UTH_integratePalace # Integrate [SAT.GetName] through puppeting WOOOOOOOOOW
+		x = 0
+		y = 1
+		icon = GFX_focus_utsuho_default
+		
+		relative_position_id = UTH_newera
+		prerequisite = {focus = UTH_newera}
+		mutually_exclusive = {
+			focus = UTH_freePalace
+			focus = UTH_assimilatePalace
+		}
+
+		available = {
+			SAT = {is_puppet_of = UTH}
+		}
+
+		completion_reward = {
+			# whatever about having cores after blah blah bahl idgaf
+		}
+	}
+
+	focus = {
+		id = UTH_freePalace # Make [SAT.GetName] independent but in faction i guess???
+		x = -1.5
+		y = 0
+		icon = GFX_focus_utsuho_default
+
+		relative_position_id = UTH_integratePalace
+		prerequisite = {focus = UTH_newera}
+		mutually_exclusive = {
+			focus = UTH_integratePalace
+			focus = UTH_assimilatePalace
+		}
+
+		available = {
+			SAT = {is_puppet_of = UTH}
+		}
+
+		completion_reward = {
+			end_puppet = SAT
+			# something about alliance
+		}
+	}
+
+	focus = {
+		id = UTH_assimilatePalace # Idk same as puppeting but when it's annexed and so i wont give the cores anyway so you have to wait kk
+		x = 1.5
+		y = 0
+		icon = GFX_focus_utsuho_default
+
+		relative_position_id = UTH_integratePalace
+		prerequisite = {focus = UTH_newera}
+		mutually_exclusive = {
+			focus = UTH_integratePalace
+			focus = UTH_freePalace
+		}
+
+		available = {
+			# something about having all territories of sat ididididk
+		}
+
+		completion_reward = {
+			# something about having compilence or whatever it called i probably misspelled it
+			# going up by like 20-35 so yeah.
+		}
+	}
+
+	############################
+
+	focus = {
+		id = UTH_whatever
+		x = 0
+		y = 1
+		icon = GFX_focus_utsuho_default
+
+		relative_position_id = UTH_integratePalace
+		prerequisite = {
+			focus = UTH_integratePalace
+			focus = UTH_freePalace
+			focus = UTH_assimilatePalace
+		}
+
+		available = {
+			# whatever
+		}
+
+		completion_reward = {
+			# whatever
+		}
+	}
+
+	# just a frame for future path idk probably im gonna finish with independence war focuses first!!!!
+}
