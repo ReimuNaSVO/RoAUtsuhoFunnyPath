@@ -54,6 +54,7 @@ capital = 75
     }
     # variables
     set_variable = {UTH_satori_declined = 0}
+    set_variable = {UTH_independencewar_ended = 0}
     #
     set_popularities = {
         qinwai = 0

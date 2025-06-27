@@ -46,10 +46,10 @@ focus_tree = {
             is_ai = no
         }
 
-        cost = 3
+        cost = 3 # in future change to something bigger
 
         completion_reward = {
-            add_political_power = 13.37
+            # mb something in future
         }
         
         
@@ -134,7 +134,7 @@ focus_tree = {
         y = 0
         icon = GFX_focus_utsuho_default
 
-        cost = 0.1
+        cost = 1488
 
         completion_reward = {
             add_political_power = 1

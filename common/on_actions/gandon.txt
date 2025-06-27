@@ -1,0 +1,32 @@
+on_actions = {
+	# refresh utsuho's tree for funnies
+	on_war_relation_added = {
+		# ROOT is attacker, FROM is defender
+		effect = {
+			if = {
+				limit = {
+					tag = UTH
+					FROM = {tag = SAT}
+					check_variable = {UTH_independencewar_ended = 0}
+				}
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+	}
+
+	# satori capitulated
+	on_capitulation = {
+		# ROOT is capitulated country, FROM is winner. 
+		effect = {
+			if = {
+				limit = {
+					tag = SAT
+					FROM = {tag = UTH}
+					FROM = {check_variable = {UTH_independencewar_ended = 0}}
+				}
+				FROM = {set_variable = {UTH_independencewar_ended = 1}}
+				FROM = {mark_focus_tree_layout_dirty = yes}
+			}
+		}
+	}
+}

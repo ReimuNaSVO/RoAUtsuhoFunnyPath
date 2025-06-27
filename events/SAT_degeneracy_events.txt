@@ -51,6 +51,6 @@ country_event = {
 
 	option = {
 		name = SAT_degeneracy_events.satwar.2.a
-		UTH = {mark_focus_tree_layout_dirty = yes} # temporary soluiton
+		# UTH = {mark_focus_tree_layout_dirty = yes} # temporary soluiton
 	}
 }
